@@ -12,5 +12,11 @@ namespace demo_test
         {
             Assert.AreEqual("123","123");
         }
+
+        [Test]
+        public void FailureTest()
+        {
+            Assert.AreEqual("123", "456");
+        }
     }
 }
